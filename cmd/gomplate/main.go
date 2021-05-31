@@ -8,7 +8,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/cmd"
+	"github.com/duffpl/gomplate/v3/internal/cmd"
 )
 
 func main() {

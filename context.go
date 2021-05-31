@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/hairyhenderson/gomplate/v3/data"
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/config"
 )
 
 // context for templates

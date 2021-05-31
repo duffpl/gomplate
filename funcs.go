@@ -6,7 +6,7 @@ import (
 
 	"github.com/hairyhenderson/gomplate/v3/data"
 	"github.com/hairyhenderson/gomplate/v3/funcs" //nolint:staticcheck
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/config"
 )
 
 // Funcs -

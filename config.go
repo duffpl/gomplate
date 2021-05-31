@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
-	"github.com/hairyhenderson/gomplate/v3/internal/iohelpers"
+	"github.com/duffpl/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/iohelpers"
 )
 
 // Config - values necessary for rendering templates with gomplate.

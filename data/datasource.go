@@ -13,7 +13,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/config"
 	"github.com/hairyhenderson/gomplate/v3/libkv"
 	"github.com/hairyhenderson/gomplate/v3/vault"
 )

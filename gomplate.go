@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/hairyhenderson/gomplate/v3/data"
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/config"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 	"github.com/spf13/afero"

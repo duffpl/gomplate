@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/config"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

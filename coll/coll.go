@@ -11,7 +11,7 @@ import (
 	"sort"
 
 	"github.com/hairyhenderson/gomplate/v3/conv"
-	iconv "github.com/hairyhenderson/gomplate/v3/internal/conv"
+	iconv "github.com/duffpl/gomplate/v3/internal/conv"
 )
 
 // Slice creates a slice from a bunch of arguments

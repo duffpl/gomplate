@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/iohelpers"
+	"github.com/duffpl/gomplate/v3/internal/iohelpers"
 	"github.com/pkg/errors"
 
 	"github.com/spf13/afero"

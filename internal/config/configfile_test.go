@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/iohelpers"
+	"github.com/duffpl/gomplate/v3/internal/iohelpers"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,7 +6,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/hairyhenderson/gomplate/v3/conv"
-	iconv "github.com/hairyhenderson/gomplate/v3/internal/conv"
+	iconv "github.com/duffpl/gomplate/v3/internal/conv"
 	"github.com/hairyhenderson/gomplate/v3/random"
 	"github.com/pkg/errors"
 )

@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
-	"github.com/hairyhenderson/gomplate/v3/internal/iohelpers"
+	"github.com/duffpl/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/iohelpers"
 	"github.com/spf13/afero"
 
 	"github.com/stretchr/testify/assert"

@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
-	"github.com/hairyhenderson/gomplate/v3/internal/iohelpers"
+	"github.com/duffpl/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/iohelpers"
 	"github.com/hairyhenderson/gomplate/v3/tmpl"
 
 	"github.com/spf13/afero"

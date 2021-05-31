@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/hairyhenderson/gomplate/v3/conv"
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/config"
 )
 
 func bindPlugins(ctx context.Context, cfg *config.Config, funcMap template.FuncMap) error {

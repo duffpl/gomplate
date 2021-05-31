@@ -9,7 +9,7 @@ import (
 
 	"github.com/hairyhenderson/gomplate/v3"
 	"github.com/hairyhenderson/gomplate/v3/env"
-	"github.com/hairyhenderson/gomplate/v3/internal/config"
+	"github.com/duffpl/gomplate/v3/internal/config"
 	"github.com/hairyhenderson/gomplate/v3/version"
 
 	"github.com/rs/zerolog"
