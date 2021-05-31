@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/hairyhenderson/gomplate/v3/env"
+	"github.com/duffpl/gomplate/v3/env"
 )
 
 // DefaultEndpoint -

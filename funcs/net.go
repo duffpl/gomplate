@@ -4,9 +4,9 @@ import (
 	"context"
 	stdnet "net"
 
-	"github.com/hairyhenderson/gomplate/v3/conv"
+	"github.com/duffpl/gomplate/v3/conv"
 
-	"github.com/hairyhenderson/gomplate/v3/net"
+	"github.com/duffpl/gomplate/v3/net"
 )
 
 // NetNS - the net namespace

@@ -4,8 +4,8 @@ import (
 	"context"
 	"text/template"
 
-	"github.com/hairyhenderson/gomplate/v3/data"
-	"github.com/hairyhenderson/gomplate/v3/funcs" //nolint:staticcheck
+	"github.com/duffpl/gomplate/v3/data"
+	"github.com/duffpl/gomplate/v3/funcs" //nolint:staticcheck
 	"github.com/duffpl/gomplate/v3/internal/config"
 )
 

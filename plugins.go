@@ -13,7 +13,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/hairyhenderson/gomplate/v3/conv"
+	"github.com/duffpl/gomplate/v3/conv"
 	"github.com/duffpl/gomplate/v3/internal/config"
 )
 

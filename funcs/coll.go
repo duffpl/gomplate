@@ -3,9 +3,9 @@ package funcs
 import (
 	"context"
 
-	"github.com/hairyhenderson/gomplate/v3/conv"
+	"github.com/duffpl/gomplate/v3/conv"
 
-	"github.com/hairyhenderson/gomplate/v3/coll"
+	"github.com/duffpl/gomplate/v3/coll"
 	"github.com/pkg/errors"
 )
 

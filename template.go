@@ -10,7 +10,7 @@ import (
 
 	"github.com/duffpl/gomplate/v3/internal/config"
 	"github.com/duffpl/gomplate/v3/internal/iohelpers"
-	"github.com/hairyhenderson/gomplate/v3/tmpl"
+	"github.com/duffpl/gomplate/v3/tmpl"
 
 	"github.com/spf13/afero"
 	"github.com/zealic/xignore"

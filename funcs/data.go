@@ -3,8 +3,8 @@ package funcs
 import (
 	"context"
 
-	"github.com/hairyhenderson/gomplate/v3/conv"
-	"github.com/hairyhenderson/gomplate/v3/data"
+	"github.com/duffpl/gomplate/v3/conv"
+	"github.com/duffpl/gomplate/v3/data"
 )
 
 // DataNS -

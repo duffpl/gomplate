@@ -1,7 +1,7 @@
 package data
 
 import (
-	"github.com/hairyhenderson/gomplate/v3/libkv"
+	"github.com/duffpl/gomplate/v3/libkv"
 	"github.com/pkg/errors"
 )
 

@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/hairyhenderson/gomplate/v3/vault"
+	"github.com/duffpl/gomplate/v3/vault"
 )
 
 func readVault(source *Source, args ...string) (data []byte, err error) {

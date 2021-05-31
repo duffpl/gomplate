@@ -512,7 +512,7 @@ If neither `GIT_SSH_KEY` nor `GIT_SSH_KEY_FILE` are set, gomplate will attempt t
 
 Accessing a file in a publicly-readable GitHub repository:
 ```console
-$ gomplate -c doc=git+https://github.com/hairyhenderson/gomplate//docs-src/content/functions/env.yml -i 'namespace is: {{ .doc.ns }}'
+$ gomplate -c doc=git+https://github.com/duffpl/gomplate//docs-src/content/functions/env.yml -i 'namespace is: {{ .doc.ns }}'
 namespace is: env
 ```
 

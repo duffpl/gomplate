@@ -55,7 +55,7 @@ jobs:
       if: github.repository != 'hairyhenderson/gomplate' || github.ref != 'refs/heads/master'
     - name: login
       run: |
-        # NOTE: DOCKERHUB_TOKEN and DOCKERHUB_USERNAME must be present in https://github.com/hairyhenderson/gomplate/settings
+        # NOTE: DOCKERHUB_TOKEN and DOCKERHUB_USERNAME must be present in https://github.com/duffpl/gomplate/settings
         echo ${{ secrets.DOCKERHUB_TOKEN }} | docker login --username ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
       if: github.repository == 'hairyhenderson/gomplate' && (github.ref == 'refs/heads/master' || env.is_tag == 'true')
     - name: Build & Push (master)

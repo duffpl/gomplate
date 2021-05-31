@@ -7,10 +7,10 @@ import (
 	"os/exec"
 	"os/signal"
 
-	"github.com/hairyhenderson/gomplate/v3"
-	"github.com/hairyhenderson/gomplate/v3/env"
+	"github.com/duffpl/gomplate/v3"
+	"github.com/duffpl/gomplate/v3/env"
 	"github.com/duffpl/gomplate/v3/internal/config"
-	"github.com/hairyhenderson/gomplate/v3/version"
+	"github.com/duffpl/gomplate/v3/version"
 
 	"github.com/rs/zerolog"
 	"github.com/spf13/cobra"

@@ -11,7 +11,7 @@ preamble: |
   this is required for your use-case.
 
   [RFC 4122]: https://en.wikipedia.org/wiki/Universally_unique_identifier
-  [log an issue]: https://github.com/hairyhenderson/gomplate/issues/new
+  [log an issue]: https://github.com/duffpl/gomplate/issues/new
 funcs:
   - name: uuid.V1
     description: |

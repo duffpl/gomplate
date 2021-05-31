@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hairyhenderson/gomplate/v3/data"
+	"github.com/duffpl/gomplate/v3/data"
 	"github.com/duffpl/gomplate/v3/internal/config"
 
 	"github.com/stretchr/testify/assert"

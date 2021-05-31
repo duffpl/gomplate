@@ -103,13 +103,13 @@ func TestParseGitPath(t *testing.T) {
 		args       string
 		repo, path string
 	}{
-		{"git+https://github.com/hairyhenderson/gomplate//docs-src/content/functions/aws.yml",
+		{"git+https://github.com/duffpl/gomplate//docs-src/content/functions/aws.yml",
 			"",
-			"git+https://github.com/hairyhenderson/gomplate",
+			"git+https://github.com/duffpl/gomplate",
 			"/docs-src/content/functions/aws.yml"},
-		{"git+ssh://github.com/hairyhenderson/gomplate.git",
+		{"git+ssh://github.com/duffpl/gomplate.git",
 			"",
-			"git+ssh://github.com/hairyhenderson/gomplate.git",
+			"git+ssh://github.com/duffpl/gomplate.git",
 			"/"},
 		{"https://github.com",
 			"",

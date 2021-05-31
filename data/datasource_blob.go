@@ -10,8 +10,8 @@ import (
 	"path"
 	"strings"
 
-	gaws "github.com/hairyhenderson/gomplate/v3/aws"
-	"github.com/hairyhenderson/gomplate/v3/env"
+	gaws "github.com/duffpl/gomplate/v3/aws"
+	"github.com/duffpl/gomplate/v3/env"
 	"github.com/pkg/errors"
 
 	"gocloud.dev/blob"

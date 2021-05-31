@@ -15,7 +15,7 @@ these days). Versions 2, 3, and 5 are able to be supported: [log an issue][] if
 this is required for your use-case.
 
 [RFC 4122]: https://en.wikipedia.org/wiki/Universally_unique_identifier
-[log an issue]: https://github.com/hairyhenderson/gomplate/issues/new
+[log an issue]: https://github.com/duffpl/gomplate/issues/new
 
 ## `uuid.V1`
 

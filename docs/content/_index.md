@@ -13,7 +13,7 @@ such as: JSON (_including EJSON - encrypted JSON_), YAML, AWS EC2 metadata, [Bol
 
 Come chat with developers and community in the [#gomplate channel][] on [Gophers Slack][] and on [GitHub Discussions][discussions-url]!
 
-_Please report any bugs found in the [issue tracker](https://github.com/hairyhenderson/gomplate/issues/)._
+_Please report any bugs found in the [issue tracker](https://github.com/duffpl/gomplate/issues/)._
 
 ## Examples
 
@@ -90,4 +90,4 @@ Copyright (c) 2016-{{< year >}} Dave Henderson
 
 [Gophers Slack]: https://invite.slack.golangbridge.org
 [#gomplate channel]: https://gophers.slack.com/messages/CGTR16RM2/
-[discussions-url]: https://github.com/hairyhenderson/gomplate/discussions
+[discussions-url]: https://github.com/duffpl/gomplate/discussions

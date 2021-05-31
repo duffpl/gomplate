@@ -14,8 +14,8 @@ import (
 	"github.com/pkg/errors"
 
 	"github.com/duffpl/gomplate/v3/internal/config"
-	"github.com/hairyhenderson/gomplate/v3/libkv"
-	"github.com/hairyhenderson/gomplate/v3/vault"
+	"github.com/duffpl/gomplate/v3/libkv"
+	"github.com/duffpl/gomplate/v3/vault"
 )
 
 func regExtension(ext, typ string) {

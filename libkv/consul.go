@@ -13,9 +13,9 @@ import (
 	"github.com/docker/libkv"
 	"github.com/docker/libkv/store"
 	"github.com/docker/libkv/store/consul"
-	"github.com/hairyhenderson/gomplate/v3/conv"
-	"github.com/hairyhenderson/gomplate/v3/env"
-	"github.com/hairyhenderson/gomplate/v3/vault"
+	"github.com/duffpl/gomplate/v3/conv"
+	"github.com/duffpl/gomplate/v3/env"
+	"github.com/duffpl/gomplate/v3/vault"
 	consulapi "github.com/hashicorp/consul/api"
 )
 

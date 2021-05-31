@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"text/template"
 
-	"github.com/hairyhenderson/gomplate/v3/coll"
-	"github.com/hairyhenderson/gomplate/v3/conv"
+	"github.com/duffpl/gomplate/v3/coll"
+	"github.com/duffpl/gomplate/v3/conv"
 )
 
 // ConvNS -

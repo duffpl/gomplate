@@ -6,14 +6,14 @@ bug reports, bug fixes, new features or even just questions.
 ## Features
 
 For PRs, please:
-- Consider filing an [issue](https://github.com/hairyhenderson/gomplate/issues/new) first, especially if you're not sure if your idea will be accepted.
+- Consider filing an [issue](https://github.com/duffpl/gomplate/issues/new) first, especially if you're not sure if your idea will be accepted.
 - [Link to any relevant issues](https://help.github.com/articles/autolinked-references-and-urls/) in the PR
 - Add new tests to cover the new code, and make sure all of the tests pass (`make lint test integration`)
 - Please try to conform to the existing code style, and see [Style Guide](#style-guide) for more details
 
 ## Bugs
 
-Submit issues to [issue tracker](https://github.com/hairyhenderson/gomplate/issues/).
+Submit issues to [issue tracker](https://github.com/duffpl/gomplate/issues/).
 
 Any bug fix PRs must also include unit tests and/or integration tests to prevent regression.
 
@@ -48,9 +48,9 @@ Code style is enforced by [`golangci-lint`](https://github.com/golangci/golangci
 
 Gomplate's code base has grown organically, and so it's full of quirks and inconsistencies. However, there are a few style points that have emerged over the years:
 
-1. Generally, all template functions should take `interface{}` as an input type, and do type conversions where necessary. As an example, see https://github.com/hairyhenderson/gomplate/blob/af961ebe30041acb4e7f94ddd5f7c92372f97111/funcs/math.go#L96..L111
+1. Generally, all template functions should take `interface{}` as an input type, and do type conversions where necessary. As an example, see https://github.com/duffpl/gomplate/blob/af961ebe30041acb4e7f94ddd5f7c92372f97111/funcs/math.go#L96..L111
     - In cases where a function takes a slice as input, use `interface{}` as the input, and convert it to a `[]interface{}` if needed
-2. Where defaults can be inferred, I prefer allowing a relaxed polymorphic style - see https://github.com/hairyhenderson/gomplate/blob/af961ebe30041acb4e7f94ddd5f7c92372f97111/funcs/crypto.go#L118..L133 as an example
+2. Where defaults can be inferred, I prefer allowing a relaxed polymorphic style - see https://github.com/duffpl/gomplate/blob/af961ebe30041acb4e7f94ddd5f7c92372f97111/funcs/crypto.go#L118..L133 as an example
     - tl;dr: I take `...interface{}` as a single input type, and do type conversion and argument inference based on the number of arguments provided
     - this only works when certain args can be considered "optional"
 3. Pipelining (i.e. `{{ "result of some action" | some.Function }}`) is powerful and it's good to make sure that functions with multiple arguments specify them in a sane order for pipelining.

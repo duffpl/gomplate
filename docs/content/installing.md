@@ -98,7 +98,7 @@ RUN apk add --no-cache ca-certificates
 In other words:
 
 ```console
-$ curl -o /usr/local/bin/gomplate -sSL https://github.com/hairyhenderson/gomplate/releases/download/<version>/gomplate_<os>-<arch>
+$ curl -o /usr/local/bin/gomplate -sSL https://github.com/duffpl/gomplate/releases/download/<version>/gomplate_<os>-<arch>
 $ chmod 755 /usr/local/bin/gomplate
 $ gomplate --help
 ...
@@ -109,7 +109,7 @@ $ gomplate --help
 If you're a Go developer, sometimes it's faster to just use `go get` to install `gomplate`:
 
 ```console
-$ go get github.com/hairyhenderson/gomplate/v3/cmd/gomplate
+$ go get github.com/duffpl/gomplate/v3/cmd/gomplate
 $ gomplate --help
 ...
 ```
@@ -138,7 +138,7 @@ There are a few reasons that a regular binary is also distributed:
 - there's a very slight chance that the slim binary could exhibit some form of bug related to being compressed
 - there could be environments where self-extracting compressed executables are disallowed
 
-[releases]: https://github.com/hairyhenderson/gomplate/releases
+[releases]: https://github.com/duffpl/gomplate/releases
 [UPX]: https://upx.github.io/
 [multi-stage builds]: https://docs.docker.com/develop/develop-images/multistage-build/
 [hairyhenderson/gomplate]: https://hub.docker.com/r/hairyhenderson/gomplate/tags/

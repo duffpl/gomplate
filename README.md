@@ -96,7 +96,7 @@ $ gomplate -d 'cities=env:///CITIES?type=application/yaml' -d 'weather=https://w
 Read the documentation at [docs.gomplate.ca][docs-url], and join the discussion
 in [GitHub Discussions][discussions-url]!
 
-_Please report any bugs found in the [issue tracker](https://github.com/hairyhenderson/gomplate/issues/)._
+_Please report any bugs found in the [issue tracker](https://github.com/duffpl/gomplate/issues/)._
 
 ## License
 
@@ -107,17 +107,17 @@ Copyright (c) 2016-2021 Dave Henderson
 [circleci-image]: https://img.shields.io/circleci/project/github/hairyhenderson/gomplate/master.svg?logo=circleci
 [circleci-url]: https://circleci.com/gh/hairyhenderson/gomplate/tree/master
 
-[gh-actions-image]: https://github.com/hairyhenderson/gomplate/workflows/Build/badge.svg?branch=master
-[gh-actions-url]: https://github.com/hairyhenderson/gomplate/actions?workflow=Build&branch=master
+[gh-actions-image]: https://github.com/duffpl/gomplate/workflows/Build/badge.svg?branch=master
+[gh-actions-url]: https://github.com/duffpl/gomplate/actions?workflow=Build&branch=master
 
-[reportcard-image]: https://goreportcard.com/badge/github.com/hairyhenderson/gomplate
-[reportcard-url]: https://goreportcard.com/report/github.com/hairyhenderson/gomplate
+[reportcard-image]: https://goreportcard.com/badge/github.com/duffpl/gomplate
+[reportcard-url]: https://goreportcard.com/report/github.com/duffpl/gomplate
 [codebeat-image]: https://codebeat.co/badges/39ed2148-4b86-4d1e-8526-25f60e159ba1
 [codebeat-url]: https://codebeat.co/projects/github-com-hairyhenderson-gomplate
-[gocover-image]: https://gocover.io/_badge/github.com/hairyhenderson/gomplate
-[gocover-url]: https://gocover.io/github.com/hairyhenderson/gomplate
+[gocover-image]: https://gocover.io/_badge/github.com/duffpl/gomplate
+[gocover-url]: https://gocover.io/github.com/duffpl/gomplate
 [gh-downloads-image]: https://img.shields.io/github/downloads/hairyhenderson/gomplate/total.svg
-[gh-downloads-url]: https://github.com/hairyhenderson/gomplate/releases
+[gh-downloads-url]: https://github.com/duffpl/gomplate/releases
 
 [cii-bp-image]: https://bestpractices.coreinfrastructure.org/projects/337/badge
 [cii-bp-url]: https://bestpractices.coreinfrastructure.org/projects/337
@@ -143,6 +143,6 @@ Copyright (c) 2016-2021 Dave Henderson
 [slack-url]: https://gophers.slack.com/messages/CGTR16RM2/
 
 [discussions-image]: https://img.shields.io/badge/discussions-gomplate-blue.svg?logo=github
-[discussions-url]: https://github.com/hairyhenderson/gomplate/discussions
+[discussions-url]: https://github.com/duffpl/gomplate/discussions
 
 [![Analytics](https://ga-beacon.appspot.com/UA-82637990-1/gomplate/README.md?pixel)](https://github.com/igrigorik/ga-beacon)

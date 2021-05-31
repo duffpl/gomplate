@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/hairyhenderson/gomplate/v3/conv"
+	"github.com/duffpl/gomplate/v3/conv"
 	iconv "github.com/duffpl/gomplate/v3/internal/conv"
 )
 

@@ -152,7 +152,7 @@ any [`outputFiles`](#outputfiles) settings.
 
 See [`--experimental`](../usage/#--experimental). Can also be set with the `GOMPLATE_EXPERIMENTAL=true` environment variable.
 
-Some functions and features are provided for early feedback behind the `experimental` configuration option. These features may change before being permanently enabled, and [feedback](https://github.com/hairyhenderson/gomplate/issues/new) is requested from early adopters!
+Some functions and features are provided for early feedback behind the `experimental` configuration option. These features may change before being permanently enabled, and [feedback](https://github.com/duffpl/gomplate/issues/new) is requested from early adopters!
 
 Experimental functions are marked in the documentation with an _"(experimental)"_ annotation.
 
@@ -360,5 +360,5 @@ templates:
 ```
 
 [command-line arguments]: ../usage
-[file an issue]: https://github.com/hairyhenderson/gomplate/issues/new
+[file an issue]: https://github.com/duffpl/gomplate/issues/new
 [YAML]: http://yaml.org
